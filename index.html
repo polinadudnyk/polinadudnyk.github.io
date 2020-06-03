@@ -241,13 +241,13 @@
        <div class="entry work-entry digital  enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/ФРИ.jpg"></div>
         </div>
-        <div class="entry work-entry digital pdflink1">
+        <div class="entry work-entry digital pdflink">
          <!-- <a href="./assets/img/13 помилок проектного менеджера.pdf"/> -->
-          <div class="entry-image imageBG" data-img="./assets/img/16.1.1.png"></div>
+          <div class="entry-image imageBG" data-url="./assets/img/13 помилок проектного менеджера.pdf" data-img="./assets/img/16.1.1.png"></div>
         </div>
-       <div class="entry work-entry digital  pdflink2">
+       <div class="entry work-entry digital  pdflink">
         <!-- <a href="./assets/img/BRAND FATHER.pdf"/> -->
-          <div class="entry-image imageBG" data-img="./assets/img/15.1.1.png"></div>
+          <div class="entry-image imageBG" data-url="./assets/img/BRAND FATHER.pdf" data-img="./assets/img/15.1.1.png"></div>
         </div>
        <div class="entry work-entry posters">
           <div class="entry-image imageBG" data-img="./assets/img/18.1.png"></div>
@@ -322,18 +322,13 @@
     }
   );
  
-   $(".pdflink1").click(
+   $(".pdflink").click(
     function (e) {
-     window.open("./assets/img/13 помилок проектного менеджера.pdf");
+     window.open($(e.target).attr('data-url'));
     }
   );
 
-    $(".pdflink2").click(
-    function (e) {
-     window.open("./assets/img/BRAND FATHER.pdf");
-    }
-  );
-
+ 
 
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
