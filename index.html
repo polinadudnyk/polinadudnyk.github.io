@@ -203,50 +203,50 @@
 
 <!--        GRID -->
         <div class="entry work-entry branding">
-          <div class="entry-image imageBG" data-img="./assets/img/1_1.jpg"></div>
+          <div class="entry-image imageBG enlarge" data-img="./assets/img/1_1.jpg"></div>
         </div>
-        <div class="entry work-entry branding">
+        <div class="entry work-entry branding  enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/2_1.jpg"></div>
         </div>
-        <div class="entry work-entry branding">
+        <div class="entry work-entry branding enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/3_1.jpg"></div>
         </div>
-       <div class="entry work-entry branding">
+       <div class="entry work-entry branding enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/4_1.jpg"></div>
         </div>
-        <div class="entry work-entry branding">
+        <div class="entry work-entry branding  enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/5_1.jpg"></div>
         </div>
-        <div class="entry work-entry branding">
+        <div class="entry work-entry branding enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/6_1.jpg"></div>
         </div>
-        <div class="entry work-entry campaigns">
+        <div class="entry work-entry campaigns  enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/7_1.jpg"></div>
         </div>
-        <div class="entry work-entry campaigns">
+        <div class="entry work-entry campaigns enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/8_1.jpg"></div>
         </div>
-        <div class="entry work-entry campaigns">
+        <div class="entry work-entry campaigns  enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/9_1.jpg"></div>
         </div>
-       <div class="entry work-entry digital">
+       <div class="entry work-entry digital  enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/10_1.jpg"></div>
         </div>
-        <div class="entry work-entry digital">
+        <div class="entry work-entry digital  enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/11_1.jpg"></div>
         </div>
-        <div class="entry work-entry digital">
+        <div class="entry work-entry digital  enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/12_1.jpg"></div>
         </div>
-       <div class="entry work-entry digital">
+       <div class="entry work-entry digital  enlarge">
           <div class="entry-image imageBG" data-img="./assets/img/ФРИ.jpg"></div>
         </div>
-        <div class="entry work-entry digital">
-         <a href="./assets/img/13 помилок проектного менеджера.pdf"/>
+        <div class="entry work-entry digital pdflink1">
+         <!-- <a href="./assets/img/13 помилок проектного менеджера.pdf"/> -->
           <div class="entry-image imageBG" data-img="./assets/img/16.1.1.png"></div>
         </div>
-       <div class="entry work-entry digital">
-         <a href="./assets/img/BRAND FATHER.pdf"/>
+       <div class="entry work-entry digital  pdflink1">
+        <!-- <a href="./assets/img/BRAND FATHER.pdf"/> -->
           <div class="entry-image imageBG" data-img="./assets/img/15.1.1.png"></div>
         </div>
        <div class="entry work-entry posters">
@@ -313,7 +313,7 @@
   var modalImg = document.getElementById("img01");
   var captionText = document.getElementById("caption");
 
-  $(".entry-image").click(
+  $(".enlarge").click(
     function (e) {
       modal.style.display = "block";
       //console.log($(e.target).attr('data-img'));
@@ -321,6 +321,19 @@
 
     }
   );
+ 
+   $(".pdflink1").click(
+    function (e) {
+     window.open("./assets/img/13 помилок проектного менеджера.pdf");
+    }
+  );
+
+    $(".pdflink2").click(
+    function (e) {
+     window.open("./assets/img/BRAND FATHER.pdf");
+    }
+  );
+
 
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
