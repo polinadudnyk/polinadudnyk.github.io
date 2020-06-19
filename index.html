@@ -181,13 +181,165 @@
     <div class="container">
       <div class="row d-flex  align-items-start">
         <div class="col-md-11">
-          <h1 class="display-3">Polina Dudnyk.<br>И осталась она у разбитого корыта</h1>
+          <h1 class="display-3">Polina Dudnyk.<br>Illustration, animation, comics art.</h1>
         </div>
       </div>
     </div>
   </section>
- <br/>
- <img src="original.jpg" width="900" height="675" >
+  <!--end:Intro -->
+  <section class="space-md">
+    <!-- portfolio -->
+    <div id="portfolio" class="container">
+      <div id="portfolio-filters">
+        <ul id="filters" class="p-0">
+          <li><a href="*" class="active"> Everything</a></li>
+          <li><a href=".digital"> Comics</a></li>
+          <li><a href=".branding"> Stickers</a></li>
+          <li><a href=".campaigns"> Infographics</a></li>
+          <li><a href=".posters"> Posters</a></li>
+        </ul>
+      </div>
+      <div class="grid" data-cols="3" data-margin="0" data-height="1"
+           data-masonry='{ "columnWidth": 200, "itemSelector": ".entry" }'>
+
+<!--        GRID -->
+        <div class="entry work-entry branding">
+          <div class="entry-image imageBG enlarge" data-img="./assets/img/1_1.jpg"></div>
+        </div>
+        <div class="entry work-entry branding  enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/2_1.jpg"></div>
+        </div>
+        <div class="entry work-entry branding enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/3_1.jpg"></div>
+        </div>
+       <div class="entry work-entry branding enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/4_1.jpg"></div>
+        </div>
+        <div class="entry work-entry branding  enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/5_1.jpg"></div>
+        </div>
+        <div class="entry work-entry branding enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/6_1.jpg"></div>
+        </div>
+        <div class="entry work-entry campaigns  enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/7_1.jpg"></div>
+        </div>
+        <div class="entry work-entry campaigns enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/8_1.jpg"></div>
+        </div>
+        <div class="entry work-entry campaigns  enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/9_1.jpg"></div>
+        </div>
+       <div class="entry work-entry digital  enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/10_1.jpg"></div>
+        </div>
+        <div class="entry work-entry digital  enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/11_1.jpg"></div>
+        </div>
+        <div class="entry work-entry digital  enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/12_1.jpg"></div>
+        </div>
+       <div class="entry work-entry digital  enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/ФРИ.jpg"></div>
+        </div>
+        <div class="entry work-entry digital pdflink">
+         <!-- <a href="./assets/img/13 помилок проектного менеджера.pdf"/> -->
+          <div class="entry-image imageBG" data-url="./assets/img/13 помилок проектного менеджера.pdf" data-img="./assets/img/16.1.1.png"></div>
+        </div>
+       <div class="entry work-entry digital  pdflink">
+        <!-- <a href="./assets/img/BRAND FATHER.pdf"/> -->
+          <div class="entry-image imageBG" data-url="./assets/img/BRAND FATHER.pdf" data-img="./assets/img/15.1.1.png"></div>
+        </div>
+       <div class="entry work-entry posters enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/18.1.png"></div>
+        </div>
+       <div class="entry work-entry posters enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/17.1.png"></div>
+        </div>
+       <div class="entry work-entry posters enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/19.1.png"></div>
+        </div>
+       <div class="entry work-entry digital enlarge">
+          <div class="entry-image imageBG" data-img="./assets/img/20.1.png"></div>
+        </div>
+
+
+
+      </div>
+    </div>
+    <!-- /end:portfolio -->
+  </section>
+</main>
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+<footer class="position-relative">
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="col-lg-3 mt-4 ml-auto">
+        <p>Kyiv
+          <br> Ukraine
+        </p>
+        <a href="mailto:hi@yourdomain.com"><span style="text-decoration: underline;">dudnikpolina10@gmail.com</span></a>
+      </div>
+      <div class="col-lg-3 mt-4 ml-auto">
+        <ul class="list-unstyled footer-link">
+          <li><a href="https://www.instagram.com/_polinadudnyk">instagram</a></li>
+          <li><a href="https://www.facebook.com/polina.dudnyk.10">facebook</a></li>
+          <li><a href="https://t.me/D_polina">telegram</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--/.row-->
+  </div>
+  <!--/.container-->
+</footer>
+<script src="assets/js/main.min.js"></script>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+
+  $(".enlarge").click(
+    function (e) {
+      modal.style.display = "block";
+      //console.log($(e.target).attr('data-img'));
+      modalImg.src = $(e.target).attr('data-img');
+
+    }
+  );
+ 
+   $(".pdflink").click(
+    function (e) {
+     window.open($(e.target).attr('data-url'));
+    }
+  );
+
+ 
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal.style.display = "none";
+  }
+</script>
+
 </body>
 
 </html>
