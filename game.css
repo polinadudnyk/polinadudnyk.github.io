@@ -42,13 +42,13 @@ html,body{
 
 .box-picture{
 	float:left;
-	width:96px;
+	width:100px;
 	height:72px;
 	border:solid 1px #ebe5e5;
 }
 
 .box-picture > img{
-	width:96px;
+	width:100px;
 	height:72px;
 }
 
@@ -60,7 +60,7 @@ html,body{
 }
 
 .box-cover{
-	width:96px;
+	width:100px;
 	height:72px;
 	background:url(game-images/image-cover.jpg) no-repeat;
 	border:solid 1px #ebe5e5;
