@@ -92,7 +92,7 @@ html,body{
 	cursor:pointer;
 }
 
-/**** IF SCREEN SIZE IS NO LARGER THAN 640px 
+/**** IF SCREEN SIZE IS NO LARGER THAN 640px  */
 @media (max-width: 640px) {
 	#canvas-game{
 		width:385px;
@@ -117,7 +117,7 @@ html,body{
 	}
 	
 }
-****/
+
 /**** IF SCREEN SIZE IS NO LARGER THAN 320px ****/
 @media (max-width: 320px) {
 	#canvas-game{
