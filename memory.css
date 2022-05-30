@@ -10,7 +10,7 @@ html,body{
 	width:350px;
 	margin-top:20px;
 	border:Solid 1px #ebe5e5;
-	height:308px;
+	height:262px;
 	position:relative;
 }
 
@@ -75,7 +75,7 @@ html,body{
 	padding:15px;
 	border:solid 1px #ccc;
 	border-radius:5px;
-	width:400px;
+	width:350px;
 	display:none;
 }
 
