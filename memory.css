@@ -7,7 +7,7 @@ html,body{
 #canvas-game{
 	margin:0 auto;
 	text-align:left;
-	width:400px;
+	width:392px;
 	margin-top:20px;
 	border:Solid 1px #ebe5e5;
 	height:308px;
@@ -17,7 +17,7 @@ html,body{
 #game-statistic{
 	margin:0 auto;
 	text-align:left;
-	width:400px;
+	width:350px;
 	margin-top:20px;
 }
 
@@ -42,14 +42,14 @@ html,body{
 
 .box-picture{
 	float:left;
-	width:100px;
-	height:75px;
+	width:96px;
+	height:72px;
 	border:solid 1px #ebe5e5;
 }
 
 .box-picture > img{
-	width:100px;
-	height:75px;
+	width:96px;
+	height:72px;
 }
 
 .box-cover-wrapper{
@@ -60,8 +60,8 @@ html,body{
 }
 
 .box-cover{
-	width:100px;
-	height:75px;
+	width:96px;
+	height:72px;
 	background:url(game-images/image-cover.jpg) no-repeat;
 	border:solid 1px #ebe5e5;
 	float:left;
